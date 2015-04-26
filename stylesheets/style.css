@@ -168,25 +168,23 @@ section {
   width: 100%;
   color: white;
 }
+/* line 95, ../sass/style.scss */
+section p {
+  margin: 30px;
+}
 
-/* line 97, ../sass/style.scss */
+/* line 100, ../sass/style.scss */
 .image-div {
   width: 200px;
   margin: 100px 40px 0px 40px;
 }
 
-/* line 102, ../sass/style.scss */
+/* line 105, ../sass/style.scss */
 .sixty {
   width: 59%;
 }
 
-/* line 106, ../sass/style.scss */
-.online {
-  background: url("../images/bkgnd.jpg");
-  background-size: cover;
-}
-
-/* line 112, ../sass/style.scss */
+/* line 110, ../sass/style.scss */
 h1 {
   font-size: 40px;
   margin-top: 70px;
@@ -196,7 +194,7 @@ h1 {
   font-weight: lighter;
 }
 
-/* line 121, ../sass/style.scss */
+/* line 119, ../sass/style.scss */
 h2 {
   font-size: 30px;
   margin-top: 60px;
@@ -208,49 +206,62 @@ h2 {
   font-weight: lighter;
 }
 
-/* line 132, ../sass/style.scss */
+/* line 130, ../sass/style.scss */
+.online {
+  background: url("../images/bkgnd.jpg");
+  background-size: cover;
+}
+
+/* line 135, ../sass/style.scss */
 .mission {
   background-color: #fcf9f4;
   color: #000;
 }
-/* line 135, ../sass/style.scss */
+/* line 138, ../sass/style.scss */
 .mission h2 {
   color: #000;
 }
-/* line 138, ../sass/style.scss */
+/* line 141, ../sass/style.scss */
 .mission p {
   width: 800px;
   display: block;
   margin: 30px auto;
 }
 
-/* line 145, ../sass/style.scss */
+/* line 148, ../sass/style.scss */
 .students {
   background-color: #91d0b1;
 }
 
-/* line 149, ../sass/style.scss */
+/* line 152, ../sass/style.scss */
 .prospective {
   background-color: #ffcd62;
 }
 
-/* line 153, ../sass/style.scss */
+/* line 156, ../sass/style.scss */
 .partners {
   background-color: #80a8cc;
 }
 
-/* line 157, ../sass/style.scss */
+/* line 160, ../sass/style.scss */
 .progress {
   background-color: #fcf9f4;
   color: #000;
   padding-top: 60px;
   padding-bottom: 170px;
 }
-/* line 162, ../sass/style.scss */
+/* line 165, ../sass/style.scss */
 .progress h2 {
   color: #000;
 }
-/* line 165, ../sass/style.scss */
+/* line 168, ../sass/style.scss */
+.progress h3 {
+  margin: 50px 20px;
+  font-size: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+}
+/* line 174, ../sass/style.scss */
 .progress li {
   display: inline-block;
   width: 240px;
@@ -259,32 +270,20 @@ h2 {
   border-radius: 5px;
   margin: 30px;
 }
-/* line 173, ../sass/style.scss */
-.progress h3 {
-  margin: 50px 20px;
-  font-size: 50px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: lighter;
-}
-/* line 179, ../sass/style.scss */
+/* line 181, ../sass/style.scss */
 .progress li:nth-last-child(1) {
   color: #80a8cc;
 }
-/* line 182, ../sass/style.scss */
+/* line 184, ../sass/style.scss */
 .progress li:nth-last-child(2) {
   color: #ffcd62;
 }
-/* line 185, ../sass/style.scss */
+/* line 187, ../sass/style.scss */
 .progress li:nth-last-child(3) {
   color: #91d0b1;
 }
 
-/* line 190, ../sass/style.scss */
-section p {
-  margin: 30px;
-}
-
-/* line 194, ../sass/style.scss */
+/* line 193, ../sass/style.scss */
 footer {
   height: 60px;
   background-color: #4d4e59;

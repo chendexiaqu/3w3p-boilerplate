@@ -92,6 +92,9 @@ section{
   text-align: center;
   width: 100%;
   color: white;
+  p{
+  margin: 30px;
+  }
 }
 
 .image-div{
@@ -101,11 +104,6 @@ section{
 
 .sixty{
   width: 59%;
-}
-
-.online{
-  background: url("../images/bkgnd.jpg");
-  background-size: cover;
 }
 
 
@@ -127,6 +125,11 @@ h2 {
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
+}
+
+.online{
+  background: url("../images/bkgnd.jpg");
+  background-size: cover;
 }
 
 .mission {
@@ -162,6 +165,12 @@ h2 {
   h2{
     color: #000;;
   }
+  h3{
+    margin: 50px 20px;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+  }
   li{
     display: inline-block;
     width: 240px;
@@ -169,26 +178,16 @@ h2 {
     border: 1px solid #cccccc;
     border-radius: 5px;
     margin: 30px;
+    &:nth-last-child(1){
+      color: #80a8cc;
+    }
+    &:nth-last-child(2){
+      color: #ffcd62;
+    }
+    &:nth-last-child(3){
+      color: #91d0b1;
+    }
   }
-  h3{
-    margin: 50px 20px;
-    font-size: 50px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: lighter;
-  }
-  li:nth-last-child(1){
-    color: #80a8cc;
-  }
-  li:nth-last-child(2){
-    color: #ffcd62;
-  }
-  li:nth-last-child(3){
-    color: #91d0b1;
-  }
-}
-
-section p{
-  margin: 30px;
 }
 
 footer {
