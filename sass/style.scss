@@ -8,8 +8,8 @@ header{
 
   #logo{
     display: inline-block;
-    height: 50px;
-    width: 100px;
+    height: 45px;
+    width: 85px;
     background: url("../images/logo.png");
     background-size: cover;
     float: left;
@@ -26,10 +26,22 @@ header{
       margin: 0 10px;
     }
   }
+
+  .donate{
+    border-color: #888888;
+    color: #888888;
+    margin: 0px;
+    padding: 4px 30px;
+  }
 }
 
 .float-right{
   float: right;
+}
+
+.float-left{
+  float: left;
+  height: 100%;
 }
 
 .clear{
@@ -37,12 +49,152 @@ header{
 }
 
 .button{
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 5px;
-  padding: 4px 30px;
+  padding: 8px 60px;
+  color: white;
+  margin: 30px;
+}
+
+.trans-white{
+  background-color: rgba(255,255,255,0.5);
+  border: none;
+  padding: 9px 61px;
+}
+
+.trans-black{
+  background-color: rgba(0,0,0,0.3);
+  border: none;
+}
+
+.yellow-bkg{
+  background-color: #ffcd62;
+  color: black;
+  border: none;
 }
 
 .centralized{
   width: 650px;
   margin: 0 auto;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.text-right{
+  text-align: right;;
+}
+
+section{
+  height: 280px;
+  padding: 150px 0;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
+.image-div{
+  width: 200px;
+  margin: 100px 40px 0px 40px;
+}
+
+.sixty{
+  width: 59%;
+}
+
+.online{
+  background: url("../images/bkgnd.jpg");
+  background-size: cover;
+}
+
+
+h1 {
+  font-size: 40px;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 60px;
+  margin-bottom: 25px;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+}
+
+.mission {
+  background-color: #fcf9f4;
+  color: #000;
+  h2{
+    color: #000;;
+  }
+  p{
+    width: 800px;
+    display: block;
+    margin: 30px auto;
+  }
+}
+
+.students {
+  background-color: #91d0b1;
+}
+
+.prospective {
+  background-color: #ffcd62;
+}
+
+.partners {
+  background-color: #80a8cc;
+}
+
+.progress {
+  background-color: #fcf9f4;
+  color: #000;
+  padding-top: 60px;
+  padding-bottom: 170px;
+  h2{
+    color: #000;;
+  }
+  li{
+    display: inline-block;
+    width: 240px;
+    height: 230px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin: 30px;
+  }
+  h3{
+    margin: 50px 20px;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+  }
+  li:nth-last-child(1){
+    color: #80a8cc;
+  }
+  li:nth-last-child(2){
+    color: #ffcd62;
+  }
+  li:nth-last-child(3){
+    color: #91d0b1;
+  }
+}
+
+section p{
+  margin: 30px;
+}
+
+footer {
+  height: 60px;
+  background-color: #4d4e59;
+  text-align: center;
+  color: white;
+  line-height: 60px;
 }
