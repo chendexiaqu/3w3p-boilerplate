@@ -1,2 +1,48 @@
 @import "compass/reset";
 @import "compass/css3";
+
+header{
+  line-height: 50px;
+  background-color: #fcf9f4;
+  color: #888;;
+
+  #logo{
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+    background: url("../images/logo.png");
+    background-size: cover;
+    float: left;
+  }
+
+  nav{
+    float: left;
+    border-left: 1px solid #888888;
+    border-right: 1px solid #888888;
+    margin: 0 25px;
+    padding: 0 15px;
+    li{
+      display: inline-block;
+      margin: 0 10px;
+    }
+  }
+}
+
+.float-right{
+  float: right;
+}
+
+.clear{
+  clear: both;
+}
+
+.button{
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 4px 30px;
+}
+
+.centralized{
+  width: 650px;
+  margin: 0 auto;
+}
